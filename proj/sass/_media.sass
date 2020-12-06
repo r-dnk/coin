@@ -1,0 +1,323 @@
+@import "vars"
+@media only screen and (max-width : 1350px)
+  .container
+    margin: 0 40px
+
+@media only screen and (max-width : 1200px)
+  .grid-content h1
+    font-size: 50px
+  .container
+    margin: 0 30px
+  .faq-content p
+    margin-top: 10px
+@media only screen and (max-width : 1024px)
+  .grid-content h1
+    font-size: 35px
+  .service
+    grid-template-rows: repeat(2, 278px)
+    grid-template-columns: repeat(2, minmax(210px, 1fr))
+    margin-left: 120px
+    margin-right: 120px
+    grid-gap: 0
+  .container
+    margin: 0 40px
+  .token-content h1,.about-content h1,.awards-content h1,.wallet-content h1
+    font-size: 25px
+  .about-content p
+    margin-bottom: 10px
+  .circle
+    border: 8px solid #c838e7
+  .circle-2
+    border: 8px solid #6df7fb
+  .circle-3
+    border: 8px solid #4268db
+  .faq-content p
+    margin-top: 10px
+  .subscribe-btn
+    transform: translateY(-5px)
+@media only screen and (max-width : 992px)
+  .logo
+    display: none
+    transform: scale(0.8)
+  .header-top
+    grid-template-columns: 1fr
+  .awards-content,.faq-content h1
+    font-size: 25px
+  .contact-footer
+    grid-template-rows: 1fr 2fr 0.5fr 0.5fr
+    margin-right: 10px
+  .service-footer,.about-footer
+    margin-right: 10px
+    text-align: center
+  .awards-content p
+    font-size: 16px
+  .service-footer,.address-footer,.about-footer
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+@media only screen and (max-width : 930px)
+  .footer
+    grid-template-rows: 1fr 1fr 130px 159px
+    grid-template-columns: 1fr 1fr
+  .footer div:nth-child(5)
+    grid-row: 3
+  .footer div:nth-child(6)
+    grid-row: 4
+  .footer div:nth-child(1)
+    grid-row: 1
+    grid-column: 1 / 2
+  .footer div:nth-child(2)
+    grid-row: 1
+    grid-column: 2 / 3
+  .footer div:nth-child(3)
+    grid-row: 2
+    grid-column: 1 / 2
+  .footer div:nth-child(4)
+    grid-row: 2
+    grid-column: 2 / 3
+  .contact-footer,.service-footer,.about-footer,.address-footer
+    grid-template-rows: auto
+    text-align: start
+    grid-gap: 10px
+  .about-footer,.address-footer
+    margin-top: 25px
+  .faq
+    grid-template-columns: 1fr
+    grid-template-rows: 1fr 0.5fr 4fr 4fr
+  .faq-content
+    grid-row: 1
+    grid-column: 1
+  .tab
+    grid-row: 2
+    grid-column: 1
+    grid-template-rows: 1fr
+    grid-template-columns: 1fr 1fr 1fr
+    justify-items: center
+    padding-top: 10px
+  .question
+    padding: 30px
+  .tabcontent
+    padding: 0 0 0
+    grid-row: 3
+    grid-column: 1
+  .faq-img
+    grid-row: 4
+    grid-column: 1
+  .tab button:nth-child(1)
+    grid-row: 1
+    grid-column: 1 / 2
+    width: 172px
+  .tab button:nth-child(2)
+    grid-row: 1
+    grid-column: 2 / 3
+    width: 123px
+  .tab button:nth-child(3)
+    grid-row: 1
+    grid-column: 3 / 4
+    width: 116px
+@media only screen and (max-width : 900px)
+  .header-top
+    grid-template-columns: 1fr
+  .links
+    display: none
+  .logo
+    display: block
+    margin-left: 30px
+  .header-top
+    border: none
+    background-color: #2b1867
+    width: 100%
+    margin: 0
+    padding: 0
+  .hamburger-menu
+    place-self: end
+    align-self: center
+    display: block
+  .hamburger-menu,.logo
+    grid-column: 1
+    grid-row: 1
+  .awards-btn span
+    font-size: 25px
+  .token
+    grid-template-columns: 1fr
+    grid-template-rows: 1fr 1fr
+    grid-auto-flow: row
+  .token-content
+    grid-row: 1
+    grid-column: 1
+  .token-content p
+    text-align: center
+  .token-content button
+    justify-self: center
+  .countdown
+    grid-row: 2
+    grid-column: 1
+  .question
+    padding: 15px
+  .about-content
+    grid-template-rows: 1fr 2fr 1fr 1fr 1fr 1fr
+  .about-img
+    background-position: center
+  .about
+    grid-template-columns: 1fr
+    grid-template-rows: 1fr 1fr
+  .about div:nth-child(1)
+    grid-row: 1
+    grid-column: 1
+  .about div:nth-child(2)
+    grid-row: 2
+    grid-column: 1
+  .wallet
+    grid-template-columns: 1fr
+    grid-template-rows: 2fr 1fr
+  .wallet-content
+    grid-template-rows: 1fr 1fr 1fr
+  .wallet div:nth-child(1)
+    grid-row: 1
+    grid-column: 1
+  .wallet div:nth-child(2)
+    grid-row: 2
+    grid-column: 1
+  .wallet-img
+    background-position: center
+  .wallet-box
+    grid-template-columns: 1fr 1fr 1fr
+  .wallet-box div:nth-child(1)
+    grid-row: 1
+    grid-column: 1
+  .wallet-box div:nth-child(2)
+    grid-row: 1
+    grid-column: 2
+  .wallet-box div:nth-child(3)
+    grid-row: 1
+    grid-column: 3
+  .wallet-box
+    text-align: center
+  .statistics
+    grid-template-columns: 1fr
+    grid-template-rows: 1fr 1fr
+  .social
+    grid-template-rows: 1fr 1fr
+  .grid-content span,.grid-content h1
+    grid-column: 1 / 4
+  .about-content > .for-text
+    height: 60px
+@media only screen and (max-width : 726px)
+  .subscribe-btn
+    transform: translateY(-6px)
+    width: 180px
+  .wallet-box
+    margin-top: 10px
+  .contact-content
+    grid-template-rows: repeat(5, 1fr)
+  .contact-content h1, .contact-content p
+    grid-column: 2 / 8
+  .contact-content input, .contact-content button
+    grid-row: 4
+  .awards
+    grid-template-columns: 1fr
+    grid-template-rows: 1.5fr 4fr
+  .awards div:nth-child(1)
+    grid-row: 1
+    grid-column: 1
+  .awards div:nth-child(2)
+    grid-row: 2
+    grid-column: 1
+@media only screen and (max-width : 620px)
+  .grid-content
+    grid-template-columns: 1fr
+  .box-grid
+    justify-self: start
+  .service
+    grid-template-rows: repeat(1, 278px)
+    grid-template-columns: repeat(1,minmax(210px,1fr))
+  .contact-content
+    grid-template-rows: 1fr 1fr 2fr
+  .contact-content h1
+    grid-column: 1 / 9
+    font-size: 30px
+    grid-row: 1
+    margin-top: 10px
+  .contact-content p
+    grid-column: 1 / 9
+    grid-row: 2
+  .contact-content button,.contact-content input
+    grid-column: 1 / 9
+    grid-row: 3
+    margin-top: 10px
+  .contact-content button
+    transform: scale(0.8) translateY(-13px)
+    margin-right: 0
+  .stack-images
+    grid-template-columns: repeat(5,1fr)
+  .stack-images div:nth-child(1)
+    grid-column: 1
+  .stack-images div:nth-child(2)
+    grid-column: 2
+  .stack-images div:nth-child(3)
+    grid-column: 3
+  .stack-images div:nth-child(4)
+    grid-column: 4
+  .stack-images div:nth-child(5)
+    grid-column: 5
+  .contact-content input::placeholder
+    font-size: 13px
+  .bottom-right,.bottom-left
+    display: none
+@media only screen and (max-width : 547px)
+  .about-img
+    transform: scale(0.8)
+  .faq-img
+    transform: scale(0.8)
+  .timer
+    grid-template-columns: 1fr
+    grid-auto-flow: row
+    grid-template-rows: 1fr 1fr 1fr 1fr
+    grid-row-gap: 20px
+    grid-row: 2
+  .timer > span
+    display: none
+  .timer #days
+    grid-column: 1
+    grid-row: 1
+  .timer  #hours
+    grid-column: 1
+    grid-row: 2
+  .timer  #minutes
+    grid-column: 1
+    grid-row: 3
+  .timer  #seconds
+    grid-column: 1
+    grid-row: 4
+  .countdown
+    grid-template-rows: 1fr 6fr 2fr 2fr
+  .contact-content button
+    transform: scale(0.8) translateY(-70px)
+  .tab button:nth-child(1)
+    width: 122px
+  .tab button:nth-child(2)
+    width: 73px
+  .tab button:nth-child(3)
+    width: 66px
+  .about-btn button
+    width: 120px
+    margin-right: 10px
+  .about-btn
+    grid-gap: 0
+  .box-grid
+    grid-column-gap: 0
+  .stack-images
+    transform: scale(0.8)
+  .about-content > .for-text
+    height: 112px
+  .about-content
+    grid-template-rows: 2fr 2fr 1fr 1fr 1fr 1fr
+  .contact-content button
+    transform: scale(0.8) translateY(-10px)
+  .container
+    margin: 0 15px
+  .header-top
+    margin: 0 0
+  .wallet-content
+    grid-template-rows: 2fr 2fr 1fr
+@media only screen and (max-width : 483px)
+  .contact-content button
+    transform: scale(0.8) translateY(-70px)

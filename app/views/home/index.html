@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Cryptik | Next gentrations react next landing page</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="../../../public/img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+		  integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+		<div class="img-bgr">
+			<img class="top-left" src="../../../public/img/particle-top-left.png" alt="">
+			<img class="top-left-2" src="../../../public/img/particle-top-left-2.png" alt="">
+			<img class="top-right" src="../../../public/img/prticle-top-right.png" alt="">
+			<img class="bottom-left" src="../../../public/img/particle-bottom-left.png" alt="">
+			<img class="bottom-right" src="../../../public/img/particle-bottom-right.png" alt="">
+			<header class="header">
+				<div class="wrapper">
+					<div class="row">
+						<div id="navbar" class="container header-top grid" >
+							<div class="logo" style="background-image: url(../../../public/img/logo.png);"></div>
+							<div class="links grid">
+								<a>Home</a>
+								<a class="about-scroll">About</a>
+								<a class="service-scroll">Service</a>
+								<a class="token-scroll">Token</a>
+								<a>Pages</a>
+								<a class="faq-scroll">FAQ</a>
+								<a class="contact-scroll">Contact</a>
+								<button class="button-white">Get in Touch</button>
+							</div>
+
+							<nav class="mobile-nav-wrap" role="navigation">
+								<ul class="mobile-header-nav"></ul>
+							</nav>
+								<a href="#" class="hamburger-menu">
+									<i class="fa fa-bars"></i>np
+								</a>
+						</div>
+					</div>
+				</div>
+			</header>
+
+
+			<div class="grid container grid-content">
+				<h1>Access the<br>power of blockchain</h1>
+				<span>The highly the not having with lively. Our up with ran go her it gloomy the back,
+					though her however ran projected with not for six with then, trusted as concepts belt.</span>
+				<div class="box-grid grid">
+					<div class="box-min"><img class="icon" src="../../../public/img/Access.svg" alt="">	Access</div>
+					<div class="box-min"><img class="icon" src="../../../public/img/Speed.svg" alt="">	Speed</div>
+					<div class="box-min"><img class="icon" src="../../../public/img/Certainty.svg" alt="">	Certainty</div>
+				</div>
+
+				<button class="button-color btn-crypto" onclick="openForm()" >
+					<i class="fab fa-github"></i>  Download Crypto
+				</button>
+
+				<div class="form-popup" id="myForm">
+					<form action="/home" method="post" class="form-container">
+						<input type="text" name="name" placeholder="Введите имя"><br>
+						<input type="email" name="email" placeholder="Введите email"><br>
+						<textarea name="message" placeholder="Введите сообщение"></textarea><br>
+						<div class="error"></div>
+						<button class="btn" id="send">Отправить</button>
+						<button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div id="service" class="service container grid">
+			<div class="service-box grid">
+				<img src="../../../public/img/ICO-Finance.svg" alt="">
+				<h3>ICO Finance</h3>
+				<p>The highly the not having with lively Our up with.</p>
+			</div>
+			<div class="service-box grid">
+				<img src="../../../public/img/Blockchain.svg" alt="">
+				<h3>Blockchain</h3>
+				<p>The highly the not having with lively Our up with.</p>
+			</div>
+			<div class="service-box grid">
+				<img src="../../../public/img/Market-News.svg" alt="">
+				<h3>Market-News</h3>
+				<p>The highly the not having with lively Our up with.</p>
+			</div>
+			<div class="service-box grid">
+				<img src="../../../public/img/Exchange-Offer.svg" alt="">
+				<h3>Exchange-Offer</h3>
+				<p>The highly the not having with lively Our up with.</p>
+			</div>
+		</div>
+
+		<div id="token" class="token container grid">
+			<div class="token-content grid">
+				<div class="for-text"><h1>Powering Data for the new<br> equity blockchain.</h1></div>
+				<p>The highly the not having with lively. Our up with ran go her it gloomy the back, though however projected
+					not for six with then, trusted as concepts<br>belt.</p>
+				<button class="button-white">Buy Token</button>
+			</div>
+			<div class="countdown grid">
+				<p>Last moment to grab the token</p>
+
+				<div class="timer grid">
+					<div id="days"></div>
+					<span>:</span>
+					<div id="hours"></div>
+					<span>:</span>
+					<div id="minutes"></div>
+					<span>:</span>
+					<div id="seconds"></div>
+				</div>
+
+				<div class="progressbar">
+					<progress max="10" value="6"></progress><br>
+					<span>$5,097</span>
+					<span>$11,931</span>
+				</div>
+				<div class="icons-pay">
+					<i class="fab fa-bitcoin"></i>
+					<i class="fab fa-cc-mastercard"></i>
+					<i class="fab fa-cc-visa"></i>
+					<i class="fab fa-cc-discover"></i>
+				</div>
+			</div>
+		</div>
+
+		<div id="about" class="about container grid">
+			<div class="about-img" style="background-image: url(../../../public/img/about.svg);"></div>
+			<div class="about-content grid">
+				<div class="for-text"><h1>Protecting investor with high security</h1></div>
+				<p>Intended village pay like…. Discipline would, interesting that I off easier bathroom
+					covered project the away, man you their by a temple prisoners. Have as her of your of in many,
+					searched had class. Had with one entire children away. Problem got boss.</p>
+				<p><span class="circle"></span> 75% Distributed to Community.</p>
+				<p><span class="circle circle-2"></span> 13% Reserved Funding.</p>
+				<p><span class="circle circle-3"></span> 9% Founders and Team Management.</p>
+				<div class="about-btn grid">
+					<button><i class="fab fa-google-play"></i> Google Play</button>
+					<button><i class="fab fa-apple"></i> Apple Store</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="awards container grid">
+
+			<div class="awards-content grid">
+				<div class="for-text"><h1>Largest Achievements</h1></div>
+				<p>Attention in when in just something bread not hundred well, muff value emerge on the known officers.
+					A parameters phase orthographic the can differentiates far catch.</p>
+			</div>
+
+			<div class="awards-box grid">
+				<div class="awards-btn grid">
+					<i class="fas fa-award"></i>
+					<span>100+</span>
+					<p>Awards</p>
+				</div>
+				<div class="awards-btn color grid">
+					<i class="fas fa-star"></i>
+					<span>10000+</span>
+					<p>Rating</p>
+				</div>
+				<div class="awards-btn grid">
+					<i class="fas fa-download"></i>
+					<span>12000+</span>
+					<p>Downloads</p>
+				</div>
+				<div class="awards-btn grid">
+					<i class="fas fa-heart"></i>
+					<span>15000+</span>
+					<p>Loves</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="map container grid">
+			<div class="map-content grid">
+				<h1>More than 3 Bilion worldwide use</h1>
+				<p>Attention in when in just something bread not hundred well, muff value emerge on the known officers.
+					A parameters phase<br> orthographic the can differentiates.</p>
+				<img class="map-img" src="../../../public/img/map.png" alt="">
+			</div>
+		</div>
+		<div class="wallet container grid">
+			<div class="wallet-img" style="background-image: url(../../../public/img/wallet.svg);"></div>
+			<div class="wallet-content grid">
+				<div class="for-text"><h1> Crypto management<br> wallet </h1></div>
+				<p>Attention in when in just something bread not hundred well, muff value emerge on the known officers.
+					A parameters phase orthographic the can differentiates far catch he warned a they but country.
+					Times, cache in and what but the that go facilitate far were house.</p>
+				<div class="wallet-box grid">
+					<div>
+						<span>200M+</span>
+						<p>Users</p>
+					</div>
+					<div>
+						<span>200+</span>
+						<p>Companies</p>
+					</div>
+					<div>
+						<span>120M+</span>
+						<p>Dollars</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="statistics container grid">
+			<div class="statistics-img grid">
+				<h2>Funds Allocation</h2>
+				<div style="background-image: url(../../../public/img/Funds.png);"></div>
+			</div>
+			<div class="statistics-img grid">
+				<h2>Token Distribution</h2>
+				<div style="background-image: url(../../../public/img/Token.png);"></div>
+			</div>
+		</div>
+
+
+		<div id="faq" class="faq container grid">
+			<div class="faq-content grid">
+				<div class="for-text"><h1>Frequently asked<br>questions</h1></div>
+				<p>Attention in when in just something bread not hundred well, muff value emerge on the known officers.</p>
+			</div>
+
+			<div class="tab grid">
+				<button class="tablinks" onclick="openCity(event, 'Pre-ICO')"
+							id="defaultOpen" autofocus>Pre-ICO & ICO</button>
+				<button class="tablinks" onclick="openCity(event, 'General')">General</button>
+				<button class="tablinks" onclick="openCity(event, 'Tokens')">Tokens</button>
+			</div>
+
+			<div id="Pre-ICO" class="tabcontent grid">
+				<div class="question">
+					<div class="accordion">What is ICO Crypto?</div>
+					<div class="panel">
+						<p>Cryptik - is unique platform; that is secure, smart and easy-to-use platform,
+							and completely disrupting the way businesses raise capital. Below we’ve provided a bit of ICO,
+							ICO Token, cryptocurrencies, and few others.</p>
+					</div>
+				</div>
+				<div class="question">
+					<div class="accordion">What cryptocurrencies can I use to purchase?</div>
+					<div class="panel">
+						<p>Cryptik - is unique platform; that is secure, smart and easy-to-use platform,
+							and completely disrupting the way businesses raise capital. Below we’ve provided a bit of ICO,
+							ICO Token, cryptocurrencies, and few others.</p>
+					</div>
+				</div>
+				<div class="question">
+					<div class="accordion">How can I participate in the ICO Token sale?</div>
+					<div class="panel">
+						<p>Cryptik - is unique platform; that is secure, smart and easy-to-use platform,
+							and completely disrupting the way businesses raise capital. Below we’ve provided a bit of ICO,
+							ICO Token, cryptocurrencies, and few others.</p>
+					</div>
+				</div>
+				<div class="question">
+					<div class="accordion">How do I benefit from the ICO Token?</div>
+					<div class="panel">
+						<p>Cryptik - is unique platform; that is secure, smart and easy-to-use platform,
+							and completely disrupting the way businesses raise capital. Below we’ve provided a bit of ICO,
+							ICO Token, cryptocurrencies, and few others.</p>
+					</div>
+				</div>
+			</div>
+
+			<div id="Tokens" class="tabcontent grid">
+				<div class="question">
+					<div class="accordion">How can I participate in the ICO Token sale?</div>
+					<div class="panel">
+						<p>Cryptik - is unique platform; that is secure, smart and easy-to-use platform,
+							and completely disrupting the way businesses raise capital. Below we’ve provided a bit of ICO,
+							ICO Token, cryptocurrencies, and few others.</p>
+					</div>
+				</div>
+			</div>
+
+			<div id="General" class="tabcontent grid">
+				<div class="question">
+					<div class="accordion">How can I participate in the ICO Token sale?</div>
+					<div class="panel">
+						<p>Cryptik - is unique platform; that is secure, smart and easy-to-use platform,
+							and completely disrupting the way businesses raise capital. Below we’ve provided a bit of ICO,
+							ICO Token, cryptocurrencies, and few others.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="faq-img" style="background-image: url(../../../public/img/faq.png);">
+
+			</div>
+		</div>
+
+		<div class="stack container grid">
+			<div class="stack-content grid">
+				<h1>Technology we use</h1>
+				<p>Attention in when in just something bread not hundred well, muff value<br>
+					emerge on the known officers.</p>
+				<div class="stack-images grid">
+					<div style="background-image: url(../../../public/img/stack-1.png);"></div>
+					<div style="background-image: url(../../../public/img/stack-2.png);"></div>
+					<div style="background-image: url(../../../public/img/stack-3.png);"></div>
+					<div style="background-image: url(../../../public/img/stack-4.png);"></div>
+					<div style="background-image: url(../../../public/img/stack-5.png);"></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="contact" class="contact grid">
+			<div class="container contact-box grid">
+				<div class="contact-content grid">
+					<h1>Don’t miss out, Stay updated</h1>
+					<p>Sign up for updates and market news. Subscribe to our newsletter and
+						receive update about ICOs and crypto tips.</p>
+
+					<input type="email" placeholder="Enter your email address . . .">
+					<button class="button-color  subscribe-btn">Subscribe</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer container grid">
+
+			<div class="contact-footer grid">
+				<img class="logo-footer" src="../../../public/img/logo.png" alt="">
+				<p>Attention in when in just something<br>
+					bread not hundred well, muff value<br>
+					emerge on the known officers.</p>
+				<p><i class="fas fa-envelope"></i> contact@cryptik.com</p>
+				<p><i class="fas fa-phone-alt"></i> +88 12345 697858</p>
+			</div>
+
+			<div class="service-footer grid">
+				<h2>Service</h2>
+				<a href="#">Web Design</a>
+				<a href="#">Web Development</a>
+				<a href="#">UXUI Design</a>
+				<a href="#">Graphics Design</a>
+				<a href="#">Software development</a>
+				<a href="#">Content</a>
+			</div>
+
+			<div class="about-footer grid">
+				<h2>About Us</h2>
+				<a href="#">About Us</a>
+				<a href="#">Work Portfolio</a>
+				<a href="#">Team</a>
+				<a href="#">Plan & Pricing</a>
+				<a href="#">Content</a>
+				<a href="#">Company News</a>
+			</div>
+
+			<div class="address-footer grid">
+				<h2>Our Address</h2>
+				<p>1370 Roosevelt Street, Little<br> York City, New Jersey 08834</p>
+			</div>
+
+			<div class="social grid">
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-tumblr"></i></a>
+				<a href="#"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+				<a href="#"><i class="fab fa-slack"></i></a>
+				<a href="#"><i class="fab fa-medium-m"></i></a>
+				<a href="#"><i class="fab fa-telegram-plane"></i></a>
+				<a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+				<a href="#"><i class="fab fa-pinterest-p"></i></a>
+				<a href="#"><i class="fab fa-youtube"></i></a>
+			</div>
+
+			<div class="right grid">
+				<p>© Cryptik | All right reserved 2020</p>
+				<span>Designed By<a href="#"> Devscorn</a></span>
+			</div>
+		</div>
+
+
+	<link rel="stylesheet" href="../../../public/css/main.min.css">
+	<script src="../../../public/js/scripts.min.js"></script>
+
+</body>
+</html>
