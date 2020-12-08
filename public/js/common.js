@@ -23,7 +23,7 @@ function closeForm() {
 // default active button
 document.getElementById("defaultOpen").click();
 // Tabs
-function openCity(evt, subject) {
+function openTab(evt, subject) {
     var i, tabcontent, tablinks;
 
     tabcontent = document.getElementsByClassName("tabcontent");
